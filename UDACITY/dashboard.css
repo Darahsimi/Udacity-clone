@@ -1,0 +1,186 @@
+.uda1{
+   margin-left: 18px;
+}
+.for1{
+   margin-left:-250px ;
+}
+#icon1{
+   margin-left:-30px ;
+   color: blue;
+}
+#icon1:hover{
+   border-radius: 100%;
+   background-color:#E9E8FF;
+   cursor: pointer;
+   width: 30px;
+}
+.prog{
+   font-size: 32px;
+   font-weight: 600;
+   color: #0b0b0b;
+   margin-top: 40px;
+   margin-left: 250px;
+}
+#currently{
+   font-size: 16px;
+   font-weight: 600;
+   all: unset;
+   margin-top: 70px;
+   margin-left: 240px;
+}
+#currently1{
+   font-size: 16px;
+   font-weight: 600;
+   all: unset;
+   margin-top: 70px;
+   margin-left: 40px;
+}
+#currently:hover,
+#currently1:hover{
+   color: #2015ff;
+}
+.signup{
+   margin-left: 240px;
+   height: 300px;
+   width: 1000px;
+   border: 1px solid rgba(0, 0, 0, 0.377);
+   border-radius: 4px;
+   margin-top: 30px;
+}
+.img{
+   width: 80px;
+   margin-left: 450px;
+   margin-top: 30px;
+}
+.enr{
+   margin-left: 380px;
+   margin-top: 30px;
+   font-size: 20px;
+   font-weight: 600;
+   color: #0b0b0b;
+}
+.enr1{
+   font-size: 16px;
+   font-weight: 400;
+   margin-left: 360px;
+   color: #0b0b0b;
+   padding-top: -19px
+}
+.button15{
+   color:white;
+   background-color: #2015FF;
+   height: 47px;
+   width: 200px;
+   border:none;
+   border-radius: 4px;
+   margin-left: 410px;
+   border-color: #2015FF;
+   margin-top:10px;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 20px; 
+}
+
+@media(max-width:1280px){
+   .signup{
+      width: 800px;
+   }
+   .img{
+      margin-left: 350px;
+   }
+   .enr{
+      margin-left: 280px;
+   }
+   .enr1{
+      margin-left: 270px;
+   }
+   .button15{
+    margin-left: 310px;  
+   }
+}
+@media(max-width:1024px){
+   .prog{
+      margin-left: 50px;
+   }
+   #currently{
+      margin-left: 40px;
+   }
+   .signup{
+      margin-left: 40px;
+      width: 920px;
+   }
+   .img{
+      margin-left: 420px;
+   }
+   .enr{
+      margin-left: 320px;
+   }
+   .enr1{
+      margin-left: 300px;
+   }
+   .button15{
+    margin-left: 360px;  
+   }
+}
+@media(max-width:820px){
+   .prog{
+      margin-left: 10px;
+   }
+   #currently{
+      margin-left: 10px;
+   }
+   .signup{
+      margin-left: 10px;
+      width: 760px;
+   }
+   .img{
+      margin-left: 360px;
+   }
+   .enr{
+      margin-left: 260px;
+   }
+   .enr1{
+      margin-left: 270px;
+   }
+   .button15{
+    margin-left: 310px;  
+   }
+}
+@media(max-width:768px){
+   .signup{
+      margin-left: 10px;
+      width: 700px;
+   }
+   .img{
+      margin-left: 300px;
+   }
+   .enr{
+      margin-left: 220px;
+   }
+   .enr1{
+      margin-left: 200px;
+   }
+   .button15{
+    margin-left: 250px;  
+   }
+}
+@media(max-width:540px){
+   .signup{
+      margin-left: 1px;
+      width: 500px;
+      height:350px ;
+   }
+   .img{
+      margin-left: 200px;
+   }
+   .enr{
+      margin-left: 120px;
+   }
+   .enr1{
+      margin-left: 100px;
+   }
+   .button15{
+    margin-left: 150px;  
+   }
+}
